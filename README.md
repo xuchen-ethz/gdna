@@ -1,8 +1,15 @@
-# gDNA Project Page
-This is the repository that contains source code for the [gDNA project page](https://xuchen-ethz.github.io/gdna).
+# gDNA: Towards Generative Detailed Neural Avatars
+## [Paper](https://ait.ethz.ch/projects/2022/gdna/downloads/main.pdf) | [Video](https://youtu.be/cyQCijencJE) | [Project Page](xuchen-ethz.github.io/gdna)
 
-# Acknowledgement
-This webpage is built with the template from [NeRFies](https://github.com/nerfies/nerfies.github.io). We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing this template.
+<img src="assets/fig_teaser.png" /> 
 
-# Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+Code for the paper [gDNA: Towards Generative Detailed Neural Avatars](https://ait.ethz.ch/projects/2022/gdna/downloads/main.pdf) will be released here soon.
+
+```
+@article{chen2022gdna,
+      title={gDNA: Towards Generative Detailed Neural Avatars},
+      author={Chen, Xu and Jiang, Tianjian and Song, Jie and Yang, Jinlong and Black, Michael J and Geiger, Andreas and Hilliges, Otmar},    
+      journal   = {arXiv},
+      year      = {2022}
+    }
+```
