@@ -1,5 +1,5 @@
 # gDNA: Towards Generative Detailed Neural Avatars
-## [Paper](https://ait.ethz.ch/projects/2022/gdna/downloads/main.pdf) | [Video](https://youtu.be/cyQCijencJE) | [Project Page](xuchen-ethz.github.io/gdna)
+## [Paper](https://ait.ethz.ch/projects/2022/gdna/downloads/main.pdf) | [Video](https://youtu.be/cyQCijencJE) | [Project Page](https://xuchen-ethz.github.io/gdna/)
 
 <img src="assets/fig_teaser.png" /> 
 
