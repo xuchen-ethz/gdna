@@ -1,0 +1,22 @@
+model:
+  deformer:
+    lbs_network:
+      _target_: lib.model.network.ImplicitNetwork
+      d_in: 3
+      d_out: 24
+      width: 128
+      depth: 4
+      geometric_init: false
+      bias: 1
+      skip_in: -1
+      weight_norm: true
+      multires: 0
+      pose_cond_dim: 69
+      pose_cond_layer: []
+      pose_embed_dim: -1
+      shape_cond_dim: 10
+      shape_cond_layer: []
+      shape_embed_dim: -1
+      latent_cond_dim: ${model.dim_shape}
+      latent_cond_layer: [0]
+      latent_embed_dim: -1

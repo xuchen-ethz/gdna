@@ -1,0 +1,12 @@
+datamodule:
+  dataset_path: ./data/THuman2.0_processed
+  data_list: ./lib/dataset/thuman.csv
+  cache_path: ${starting_path}
+  num_workers: 16
+  batch_size: 16
+  points_per_frame: 2000
+  load_img: false
+  load_cache: false
+  load_surface: false
+  load_res: 256
+  

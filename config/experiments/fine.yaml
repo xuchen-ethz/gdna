@@ -1,0 +1,26 @@
+expname: fine
+
+model:
+  stage: fine
+  dim_detail: 64
+  use_gan: true
+
+  img_res: ${datamodule.load_res}
+  lambda_gan: 1
+  lambda_grad: 10
+  lambda_recon: 10
+  d_reg_every: 16
+  norm_loss_3d: true
+
+  optim:
+    lr: 2e-3
+    lr_dis: 2e-3
+
+  deformer:
+    max_steps: 10 
+  
+datamodule:
+  load_img: true
+  load_cache: true
+  load_surface: ${model.norm_loss_3d}
+  batch_size: 8

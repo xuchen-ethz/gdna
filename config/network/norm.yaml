@@ -1,0 +1,23 @@
+model:
+  norm_network:
+    _target_: lib.model.network.ImplicitNetwork
+    d_in: 3
+    d_out: 3
+    width: 256
+    depth: 8
+    geometric_init: false
+    bias: 1
+    skip_in: 4
+    weight_norm: true
+    multires: 4
+    pose_cond_dim: 69
+    pose_cond_layer: []
+    pose_embed_dim: -1
+    shape_cond_dim: 10
+    shape_cond_layer: []
+    shape_embed_dim: -1
+    latent_cond_dim: ${model.dim_detail}
+    latent_cond_layer: [0]
+    latent_embed_dim: -1
+    feat_cond_dim: 229
+    feat_cond_layer: [0]
