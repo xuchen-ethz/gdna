@@ -83,7 +83,13 @@ python setup.py develop
 
 ## Prepare Datasets
 
-First, download [THuman2.0 dataset](https://github.com/ytrock/THuman2.0-Dataset) and the correspondence SMPL-x parameters following their instructions. Unzip it into `data/THuman2.0_Release`. Convert the SMPL-X parameters to SMPL parameters using [this model transfer tool in SMPL-X repo](https://github.com/vchoutas/smplx/blob/master/transfer_model/README.md). 
+First, download [THuman2.0 dataset](https://github.com/ytrock/THuman2.0-Dataset) following their instructions. 
+
+Also download the corresponding SMPL parameters:
+```
+wget https://dataset.ait.ethz.ch/downloads/gdna/THuman2.0_smpl.zip
+unzip THuman2.0_smpl.zip -d data/
+```
 
 Next, run the pre-processing script to get ground truth occupancy, surface normal and 2D normal maps:
 ```
