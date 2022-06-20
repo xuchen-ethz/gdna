@@ -16,7 +16,7 @@ If you find our code or paper useful, please cite as
       }
 ```
 
-**Note:** In the paper we trained our model with two commercial datasets, 3DPeople and RenderPeople. We haven't yet gotten permission to release a generative model trained with 3DPeople. Instead, we release a model trained with RenderPeople only, and also a model trained with a freely accessible dataset THuman2.0. In addition, the list of original training scans from 3DPeople and RenderPeople can be found in `lib/dataset/renderpeople_3dpeople.csv` in case one wants to buy them. 
+**Note:** In the paper we trained our model with two commercial datasets, 3DPeople and RenderPeople. We haven't yet gotten permission to release a generative model trained with 3DPeople. Instead, we release a model trained with RenderPeople only, and also a model trained with a freely accessible dataset [THuman2.0](https://github.com/ytrock/THuman2.0-Dataset). In addition, the list of original training scans from 3DPeople and RenderPeople can be found in `lib/dataset/renderpeople_3dpeople.csv` in case one wants to buy them. 
 
 # Quick Start
 Clone this repo:
