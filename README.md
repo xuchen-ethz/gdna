@@ -11,7 +11,7 @@ If you find our code or paper useful, please cite as
 @inproceedings{chen2022gdna,
       title={gDNA: Towards Generative Detailed Neural Avatars},
       author={Chen, Xu and Jiang, Tianjian and Song, Jie and Yang, Jinlong and Black, Michael J and Geiger, Andreas and Hilliges, Otmar},    
-      journal   = {IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
+      booktitle   = {IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
       year      = {2022}
       }
 ```
